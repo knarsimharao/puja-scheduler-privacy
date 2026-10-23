@@ -102,5 +102,5 @@ We may update our Privacy Policy from time to time to reflect changes in our leg
 
 If you have any questions, concerns, or feedback regarding this Privacy Policy or the data practices of Puja Scheduler, please contact us:
 
-* **Repository / Issue Tracker:** [https://github.com/knarsimharao/puja-scheduler/issues](https://github.com/knarsimharao/puja-scheduler/issues)
+* **Public Issue Tracker / Support:** [https://github.com/knarsimharao/puja-scheduler-privacy/issues](https://github.com/knarsimharao/puja-scheduler-privacy/issues)
 * **GitHub Profile:** [https://github.com/knarsimharao](https://github.com/knarsimharao)
