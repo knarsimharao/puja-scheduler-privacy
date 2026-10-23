@@ -85,6 +85,37 @@
       margin: 20px 0;
       font-size: 0.95rem;
     }
+    .download-card {
+      background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+      border: 2px solid #f59e0b;
+      border-radius: 12px;
+      padding: 20px 16px;
+      margin: 20px 0 28px 0;
+      text-align: center;
+    }
+    @media (prefers-color-scheme: dark) {
+      .download-card {
+        background: linear-gradient(135deg, #241604 0%, #3a2206 100%);
+        border-color: #d97706;
+      }
+    }
+    .download-btn {
+      display: inline-block;
+      background: #d97706;
+      color: #ffffff !important;
+      font-weight: bold;
+      font-size: 1.05rem;
+      padding: 12px 26px;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);
+      text-decoration: none !important;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .download-btn:hover {
+      background: #b45309;
+      transform: translateY(-2px);
+    }
     a {
       color: var(--primary);
       text-decoration: none;
@@ -108,6 +139,17 @@
       <h1>Privacy Policy</h1>
       <p class="meta"><strong>Puja Scheduler (Archaka)</strong> &bull; Last Updated: October 23, 2026</p>
     </header>
+
+    <div class="download-card">
+      <h2 style="margin: 0 0 6px 0; border: none; padding: 0; color: #b45309; font-size: 1.35rem;">📲 Download Android App</h2>
+      <p style="margin-bottom: 4px; font-size: 0.95rem;">Puja Scheduler (Archaka) &bull; <strong>v5.1.25</strong> &bull; 10.3 MB</p>
+      <a class="download-btn" href="https://github.com/knarsimharao/puja-scheduler-privacy/releases/download/v5.1.25/Archaka-v5.1.25.apk">
+        ⬇️ Download APK (Direct)
+      </a>
+      <p style="margin-top: 10px; font-size: 0.8rem; color: var(--text-muted);">
+        Compatible with Android 7.0+. Tap the downloaded file to install on your phone.
+      </p>
+    </div>
 
     <div class="highlight-box">
       <strong>Core Privacy Guarantee:</strong> Puja Scheduler is built with an <em>offline-first, privacy-by-design</em> architecture. We do not operate remote user account databases. All client lists, booking schedules, astrological charts, notes, and financial records remain stored locally on your device and are never uploaded to any remote server or third party.
