@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Puja Scheduler (Archaka)</title>
+  <meta name="description" content="Privacy Policy for Puja Scheduler (Archaka) mobile application.">
+  <style>
+    :root {
+      --primary: #d97706;
+      --primary-dark: #b45309;
+      --bg: #fcfbf9;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --text-muted: #4b5563;
+      --border: #e5e7eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --surface: #1e1e1e;
+        --text: #f3f4f6;
+        --text-muted: #9ca3af;
+        --border: #2d3748;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      font-size: 1.85rem;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin: 28px 0 12px 0;
+      color: var(--primary-dark);
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin: 18px 0 8px 0;
+      color: var(--text);
+    }
+    p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+    ul, ol {
+      margin: 10px 0 16px 24px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight-box {
+      background: rgba(217, 119, 6, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>Puja Scheduler (Archaka)</strong> &bull; Last Updated: October 23, 2026</p>
+    </header>
+
+    <div class="highlight-box">
+      <strong>Core Privacy Guarantee:</strong> Puja Scheduler is built with an <em>offline-first, privacy-by-design</em> architecture. We do not operate remote user account databases. All client lists, booking schedules, astrological charts, notes, and financial records remain stored locally on your device and are never uploaded to any remote server or third party.
+    </div>
+
+    <h2>1. Summary of Key Principles</h2>
+    <ul>
+      <li><strong>100% Offline-First Storage:</strong> Your data remains exclusively in your device's sandboxed local storage (<code>localStorage</code>).</li>
+      <li><strong>No Account Required:</strong> You do not need to register an account, sign in, or provide an email address or phone number to use this App.</li>
+      <li><strong>No Third-Party Advertising or Tracking:</strong> The App does not contain third-party ad networks, tracking pixels, or commercial profiling SDKs.</li>
+      <li><strong>Transparent Permission Usage:</strong> Device permissions (Location and Notifications) are used exclusively for core religious, astronomical, and scheduling functions.</li>
+    </ul>
+
+    <h2>2. Information We Access and How We Use It</h2>
+
+    <h3>A. Location Data (<code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code>)</h3>
+    <p>
+      Hindu calendar (Panchangam) calculations—such as Tithi, Nakshatram, Yoga, Karana, Rahu Kalam, Yamagandam, Gulika Kalam, Abhijit Muhurtham, and exact Sunrise/Sunset timings—are mathematically dependent on precise geographical coordinates (latitude and longitude).
+    </p>
+    <p>
+      Furthermore, traditional Hindu <em>Sankalpam</em> recitation requires determining regional geographic context (e.g. <em>Jambhu Dweepe, Bharata Varshe...</em>).
+    </p>
+    <ul>
+      <li>Location information is queried only when you actively trigger Panchangam computation or location auto-detection.</li>
+      <li>Location coordinates are processed <strong>ephemerally on your device</strong>.</li>
+      <li>We <strong>do not</strong> track your location in the background, we do not monitor your movements, and we never transmit your location coordinates to any proprietary or marketing servers.</li>
+    </ul>
+
+    <h3>B. User-Entered Client & Booking Records</h3>
+    <p>
+      You may enter client names, phone numbers, family member details, Gotram, Nakshatram, Rashi, ceremony dates, checklists, and fee records.
+    </p>
+    <ul>
+      <li>All entered records are saved exclusively on your device's local sandboxed storage.</li>
+      <li>You can protect access to your records on-device using the optional in-app <strong>PIN Lock</strong>.</li>
+      <li>You can create an offline JSON backup file at any time via the Backup &amp; Restore menu. You retain complete ownership of your exported files.</li>
+    </ul>
+
+    <h3>C. Document Generation &amp; PDF Exports</h3>
+    <p>
+      When you generate a Janma Patrika (Horoscope / Kundali), Lagna Patrika (Wedding Invitation), or Puja Booking Summary, the document is rendered locally and saved to your device's application storage. The file is handed off to your device's native Share Sheet (e.g., WhatsApp, Email, or Print) <strong>only upon your explicit command</strong>.
+    </p>
+
+    <h3>D. Local Device Notifications (<code>POST_NOTIFICATIONS</code>)</h3>
+    <p>
+      The App uses local device notifications to remind you of upcoming scheduled pujas and to prompt you to pack the required <em>Samagri</em> the evening before. Notification triggers are registered locally in Android's Alarm Manager; no remote push servers or device tokens are used.
+    </p>
+
+    <h2>3. Third-Party Services and Network Communications</h2>
+    <p>The App operates locally, but minimal network requests may be made for specific user-requested utilities:</p>
+    <ul>
+      <li><strong>Reverse Geocoding (OpenStreetMap Nominatim):</strong> When you tap to auto-detect your location for the Sankalpam generator, an HTTPS query containing your coordinates is sent to OpenStreetMap's Nominatim service solely to identify your state and country. No personal identifiers or user details are passed.</li>
+      <li><strong>App Updates:</strong> The App may query a public version manifest on GitHub to inform you if a new version is available. No user data is sent.</li>
+    </ul>
+
+    <h2>4. Data Retention and Deletion</h2>
+    <p>Because all data is stored locally on your device:</p>
+    <ul>
+      <li><strong>In-App Deletion:</strong> You can delete any individual puja, client, expense, or booking entry directly in the App at any time.</li>
+      <li><strong>Complete Erasure:</strong> You can delete all data at once by clearing the App's storage via Android <strong>Settings &gt; Apps &gt; Puja Scheduler &gt; Storage &gt; Clear Storage / Clear Data</strong>, or by uninstalling the App.</li>
+    </ul>
+    <p>We do not keep copies of your data on external servers. Once cleared or uninstalled, data cannot be recovered unless you previously exported a backup file.</p>
+
+    <h2>5. Security of Your Data</h2>
+    <ul>
+      <li>Your data remains confined to Android’s secure application sandbox.</li>
+      <li>You can enable an optional <strong>In-App PIN Lock</strong> for privacy.</li>
+      <li>All external network requests use encrypted <strong>HTTPS (SSL/TLS)</strong> protocols.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Puja Scheduler is a professional and cultural organization tool intended for adults (priests, astrologers, and event organizers). It is not directed at children under the age of 13, and we do not knowingly solicit or collect information from children.
+    </p>
+
+    <h2>7. Disclaimer Regarding Astrological Calculations</h2>
+    <p>
+      All astronomical, Panchangam, Muhurtham, and Janma Patrika (astrology) calculations and interpretations in this App are derived from classical traditional algorithms and are intended strictly for <strong>cultural, traditional, educational, and spiritual guidance purposes</strong>.
+    </p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>
+      We may update our Privacy Policy from time to time. Any updates will be published on this page with a revised "Last Updated" date.
+    </p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy, please contact us via:</p>
+    <ul>
+      <li><strong>GitHub Issues:</strong> <a href="https://github.com/knarsimharao/puja-scheduler/issues" target="_blank" rel="noopener">https://github.com/knarsimharao/puja-scheduler/issues</a></li>
+      <li><strong>GitHub Profile:</strong> <a href="https://github.com/knarsimharao" target="_blank" rel="noopener">https://github.com/knarsimharao</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2026 Puja Scheduler (Archaka). All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
